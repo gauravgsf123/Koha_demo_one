@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".module.about_library.RulesAndRegulationFragment">
+        <TextView
+            android:id="@+id/tvRulesRegulation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20sdp"/>
+        <!--<androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:paddingBottom="@dimen/_30sdp">
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/textview_bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/rules_and_regulation"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvRule1"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/rule_one"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+                app:layout_constraintStart_toStartOf="@+id/tvTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <TextView
+                android:id="@+id/tvRule2"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_two"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule1" />
+
+            <TextView
+                android:id="@+id/tvRule3"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_three"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule2" />
+
+            <TextView
+                android:id="@+id/tvRule4"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_four"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule3" />
+
+            <TextView
+                android:id="@+id/tvRule5"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_five"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule4" />
+
+            <TextView
+                android:id="@+id/tvRule6"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_six"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule5" />
+
+            <TextView
+                android:id="@+id/tvRule7"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_seven"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule6" />
+
+            <TextView
+                android:id="@+id/tvRule8"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_eight"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule7" />
+
+            <TextView
+                android:id="@+id/tvRule9"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_nine"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule8" />
+
+            <TextView
+                android:id="@+id/tvRule10"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/rule_ten"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:paddingBottom="10dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvRule1"
+                app:layout_constraintStart_toStartOf="@+id/tvRule1"
+                app:layout_constraintTop_toBottomOf="@+id/tvRule9" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>-->
+
+    </ScrollView>
+</layout>

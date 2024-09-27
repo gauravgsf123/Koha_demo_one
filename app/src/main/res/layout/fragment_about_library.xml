@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:context=".module.about_library.AboutLibraryFragment">
+
+        <TextView
+            android:id="@+id/tvAboutLibrary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_20sdp"/>
+
+        <!--<androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/_30sdp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                style="@style/textview_bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/about_library"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text=""
+                app:layout_constraintEnd_toEndOf="@+id/tvTitle"
+                app:layout_constraintStart_toStartOf="@id/tvTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+            <TextView
+                android:id="@+id/tvLibraryHours"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/textview_medium"
+                android:textColor="@color/text_item_list"
+                android:text="@string/library_hours"
+                android:textSize="16sp"
+                android:layout_marginTop="15dp"
+                app:layout_constraintTop_toBottomOf="@+id/tvDescription"
+                app:layout_constraintEnd_toEndOf="@+id/tvDescription"
+                app:layout_constraintStart_toStartOf="@+id/tvDescription"/>
+
+            <TextView
+                android:id="@+id/tvStaffWorkingHourTitle"
+                style="@style/textview_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/circulation_and_staff_operated_services"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/tvLibraryHours"
+                app:layout_constraintEnd_toEndOf="@+id/tvLibraryHours"
+                app:layout_constraintTop_toBottomOf="@+id/tvLibraryHours" />
+
+            <TextView
+                android:id="@+id/tvStaffWorkingHour"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="9.00 AM to 5.00 PM (Mon-Sat)"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvStaffWorkingHourTitle"
+                app:layout_constraintStart_toStartOf="@+id/tvStaffWorkingHourTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvStaffWorkingHourTitle" />
+
+            <TextView
+                android:id="@+id/tvReadingHallTitle"
+                style="@style/textview_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/circulation_and_staff_operated_services"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/tvStaffWorkingHour"
+                app:layout_constraintEnd_toEndOf="@+id/tvStaffWorkingHour"
+                app:layout_constraintTop_toBottomOf="@+id/tvStaffWorkingHour" />
+
+            <TextView
+                android:id="@+id/tvReadingHall"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="24 hours, all days"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/tvReadingHallTitle"
+                app:layout_constraintStart_toStartOf="@+id/tvReadingHallTitle"
+                app:layout_constraintTop_toBottomOf="@+id/tvReadingHallTitle" />
+
+            <TextView
+                android:id="@+id/tvHolidayNotes"
+                style="@style/textview_medium"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/notes_the_library_remains_closed_on_national_holidays"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/tvReadingHall"
+                app:layout_constraintEnd_toEndOf="@+id/tvReadingHall"
+                app:layout_constraintTop_toBottomOf="@+id/tvReadingHall" />
+
+            <TextView
+                android:id="@+id/tvAskLibrarian"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                style="@style/textview_medium"
+                android:textColor="@color/text_item_list"
+                android:text="@string/ask_librarian"
+                android:textSize="16sp"
+                android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/tvHolidayNotes"
+                app:layout_constraintEnd_toEndOf="@+id/tvHolidayNotes"
+                app:layout_constraintStart_toStartOf="@+id/tvHolidayNotes"/>
+
+            <TextView
+                android:id="@+id/tvMailAt"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="@string/you_can_mail_us_at"
+                android:textSize="14sp"
+                app:layout_constraintStart_toStartOf="@+id/tvAskLibrarian"
+                app:layout_constraintTop_toBottomOf="@+id/tvAskLibrarian" />
+
+            <TextView
+                android:id="@+id/tvMailId"
+                style="@style/textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:textColor="@color/text_hyperlink_color"
+                android:text="nflic.fri@gmail.com"
+                android:textSize="14sp"
+                app:layout_constraintStart_toEndOf="@+id/tvMailAt"
+                app:layout_constraintTop_toBottomOf="@+id/tvAskLibrarian" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>-->
+    </ScrollView>
+
+</layout>

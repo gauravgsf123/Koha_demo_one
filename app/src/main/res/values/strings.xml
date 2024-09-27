@@ -1,0 +1,267 @@
+<resources>
+    <string name="app_name">Koha LMS</string>
+    <string name="login">Login</string>
+    <string name="enter_userid_password">Enter userid and password</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="no_internet">No Internet</string>
+    <string name="trip_sheet_no">Trip sheet no</string>
+    <string name="total_hu">Total HU</string>
+    <string name="scan_hu">Scan HU</string>
+    <string name="bar_code">Bar Code</string>
+    <string name="c_note_number">C Note Number</string>
+    <string name="carton_no">Carton No</string>
+    <string name="status">Status</string>
+    <string name="bluetooth_setting">Bluetooth Setting</string>
+    <string name="last_connected_device">Last connected device</string>
+    <string name="add_new_device">Add New Device</string>
+    <string name="ip_mac_address">IP MAC Address</string>
+    <string name="add">Add</string>
+    <string name="test_device">Test Device</string>
+    <string name="start">Start</string>
+    <string name="vehicle_no">Vehicle Number</string>
+    <string name="mobile_no">Mobile No.</string>
+    <string name="some_thing_went_wrong">Something went wrong</string>
+    <string name="stop">Stop</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_pass">Forgot password?</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="continue_as_guest">Continue as Guest</string>
+    <string name="don_t_have">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="forgot_password_detail">Enter your Email for the verification process, we will send 4 digits code to your Email/Mobile No.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or">or</string>
+    <string name="email">Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="enter_four_digits_code">Enter 4 Digits Code</string>
+    <string name="otp_detail">Enter the 4 digits code that you received on your Email/Mobile No.</string>
+    <string name="continue_">Continue</string>
+    <string name="update_password">Update Password</string>
+    <string name="powered_by_estBookBuddies">Powered by BestBookBuddies</string>
+    <string name="skip">Skip</string>
+    <string name="create_account">Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="dob">Date of Birthday</string>
+    <string name="address">Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="card_number">Card Number</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="select_library">Select Library</string>
+    <string name="select_category">Select Category</string>
+    <string name="library_account_details">Library Account Details</string>
+    <string name="please_enter_username">Please enter username</string>
+    <string name="please_enter_password">Please enter Password</string>
+    <string name="registration_successful">Registration successful</string>
+    <string name="login_successful">Login successful</string>
+    <string name="please_enter_either_email_or_mobile">\"Please enter either Email-id or Mobile No. \"</string>
+    <string name="rules_regulation"><![CDATA[Rules & Regulation]]></string>
+    <string name="no_result_found">No Result found</string>
+    <string name="password_change_successful">Password change successful</string>
+    <string name="search">Search</string>
+    <string name="home_library">Home Library</string>
+    <string name="next">Next</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="surname">Surname</string>
+    <string name="previous">Previous</string>
+    <string name="country">Country</string>
+    <string name="zip_postal_code">Zip/Postal Code</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="secondry_phone_number">Secondry Phone Number</string>
+    <string name="primary_email">Primary Email Id</string>
+    <string name="secondary_email">Secondary Email Id</string>
+    <string name="your_personal_detail">Your Personal Details</string>
+    <string name="your_summary">Your Summary</string>
+    <string name="checkout_s">Checkout(s)</string>
+    <string name="overdue">Overdue</string>
+    <string name="holds">Holds</string>
+    <string name="are_you_sure_you_want_to_renew">Are you sure you want to Renew?</string>
+    <string name="are_you_sure_you_want_to_logout">Are you sure you want to Logout?</string>
+    <string name="are_you_sure_you_want_to_cancel">Are you sure you want to Cancel?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="fine">Fine</string>
+    <string name="pay">Pay</string>
+    <string name="your_charges">Your Charges</string>
+    <string name="date_">Date</string>
+    <string name="description">Description</string>
+    <string name="total_due">Total Due</string>
+    <string name="your_purchase_suggestions">Your Purchase Suggestions</string>
+    <string name="create_new">+  Create New</string>
+    <string name="enter_a_new_purchase_suggestion">Enter a new purchase suggestion</string>
+    <string name="purchase_suggestion_description">Please fill out this form to make a purchase suggestion. You will receive an email when the library processes your suggestion.</string>
+    <string name="discharge_description">This document certifies that you have returned all borrowed items and no pending charges.</string>
+    <string name="discharge_description_warning">Warning:  This request is only valid if you are in good standing with the library. Once the application is made, you can not borrow library materials.</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="isbn_issn">ISBN/ISSN</string>
+    <string name="publication_year">Publication Year</string>
+    <string name="quantity">Quantity</string>
+    <string name="item_type">Item Type</string>
+    <string name="library">Library</string>
+    <string name="notes">Notes</string>
+    <string name="cancel">Cancel</string>
+    <string name="what_is_a_discharge">What is a Discharge ?</string>
+    <string name="ask_for_a_discharge">Ask for a Discharge</string>
+    <string name="guest_user">Guest User</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="renew">Renew</string>
+    <string name="fee_due">Fee Due</string>
+    <string name="date">Date</string>
+    <string name="filter">Filter</string>
+    <string name="book_library">Book Library</string>
+    <string name="book_category">Book Category</string>
+    <string name="search_by">Search By</string>
+    <string name="search_text">Search Text</string>
+    <string name="reset">Reset</string>
+    <string name="advance_search">Advance Search</string>
+    <string name="advance_search_items_where">Advance Search items where,</string>
+    <string name="and">and</string>
+    <string name="date_range">Date Range</string>
+    <string name="add_more">+ Add More</string>
+    <string name="for_example_1999_2001">For Example: 1999-2001</string>
+    <string name="amount">Amount</string>
+    <string name="summary">Summary</string>
+    <string name="suggested_on">Suggested on</string>
+    <string name="delete_selected">Delete Selected</string>
+    <string name="select_item">Select Item Type</string>
+    <string name="suggestion_added_successsful">Suggestion added successful</string>
+    <string name="view_details">View details</string>
+    <string name="place_hold">Place Hold</string>
+    <string name="publication_details">Publication Details</string>
+    <string name="edition">Edition</string>
+    <string name="subjects">Subject(s)</string>
+    <string name="calssification">Calssification</string>
+    <string name="call_number">Call Number</string>
+    <string name="barcode">Barcode</string>
+    <string name="branch">Branch</string>
+    <string name="view_more">View More</string>
+    <string name="placing_a_hold">Placing a hold</string>
+    <string name="show_hide_more_options">Show/Hide More Options</string>
+    <string name="dd_mm_yyyy">DD/MM/YYYY</string>
+    <string name="confirm_hold">Confirm Hold</string>
+    <string name="new_arrivals">New Arrivals</string>
+    <string name="view_all">View All</string>
+    <string name="top_circulating_books">Top Circulating Books</string>
+    <string name="your_recently_borrowed_books">Your Recently Borrowed Books</string>
+    <string name="books">Books</string>
+    <string name="users">Users</string>
+    <string name="follow">Follow</string>
+    <string name="publisher">Publisher</string>
+    <string name="number_of_pages">Number of pages</string>
+    <string name="issued_date">Issued Date</string>
+    <string name="place_hold_successful">Place hold successful</string>
+    <string name="web_opac">Web Opac</string>
+    <string name="accounts">Accounts</string>
+    <string name="start_screen">Start screen</string>
+    <string name="which_screen_should_be_shown_on_startup">Which screen should be show on startup</string>
+    <string name="warning_period_notification">Select a warning period for due date notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="expiring_items">Expiring items</string>
+    <string name="warning_period">Warning period</string>
+    <string name="repeat_notifications">Repeat notifications</string>
+    <string name="library_home">Library Home</string>
+    <string name="user_summary">User Summary</string>
+    <string name="apply">Apply</string>
+    <string name="please_choose_days">Please choose days</string>
+    <string name="share_app">Share App</string>
+    <string name="only_items_currently_available_for_loan">Only Items Currently Available for loan</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="about_app">About App</string>
+    <string name="about_library">About Library</string>
+    <string name="library_hours">Library Hours</string>
+    <string name="no_data_found">No data found</string>
+    <string name="do_you_want_login">Do you want to login?</string>
+    <string name="logout">Logout</string>
+    <string name="search_by_keywords">Search By Keywords</string>
+    <string name="managed_by">Managed By</string>
+    <string name="date_from">Date From</string>
+    <string name="date_to">Date To</string>
+    <string name="scan_by">Scan By</string>
+    <string name="scan">Scan</string>
+    <string name="not_available">Not Available</string>
+
+    <string name="circulation_and_staff_operated_services">Circulation, and staff operated services</string>
+    <string name="notes_the_library_remains_closed_on_national_holidays">Notes :- The Library remains closed on National Holidays.</string>
+    <string name="ask_librarian">Ask Librarian</string>
+    <string name="you_can_mail_us_at">You can mail us at :</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="location">Location</string>
+    <string name="library_location">Forest Research Institute,\nP.O. New Forest- Dehradun (India)</string>
+    <string name="contact_info">Contact Info</string>
+    <string name="website_link">Website link</string>
+    <string name="rules_and_regulation">Rules and Regulation</string>
+    <string name="rule_one">1. Literature Search Service: The NFLIC offers literature search service and compiles bibliographies.</string>
+    <string name="rule_two">2. Document Copy Supply Service: This service is provided to the scientific community by supplying copies of the articles from Indian and foreign journals at a nominal charges.</string>
+    <string name="rule_three">3. Photocopy Service: Service is  provided by the NFLIC on the request of users.</string>
+    <string name="rule_four">4. Inter Library Loan Service: The NFLIC loans documents from its collection to other institutions on reciprocal basis for a period of 15 days.</string>
+    <string name="rule_five">5. Membership service: The NFLIC provides membership to its associate members IGNFA, CASFoS, FSI and Special membership to the  working and retired officers of Union / State Government.</string>
+    <string name="rule_six">6. Creation and Maintenance of Bibliographical Databases.</string>
+    <string name="rule_seven">7. One month paid library internship programme for BLIS and MLIS students.</string>
+    <string name="rule_eight">8. Reference books, Journals, Magazines, Newspaper cannot be issued.</string>
+    <string name="rule_nine">9. Bags, Personal books, eatables, and beverages are not permitted inside the library.</string>
+    <string name="rule_ten">10. Books taken for reading should be left on the table, please do not try to replace the book on the shelf, chances are there it may be misplaced.</string>
+    <string name="your_checkout_history">Your Checkout History</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="due_date">Due Date</string>
+    <string name="payment">Payment</string>
+    <string name="please_enter_amount">Please enter amount</string>
+    <string name="please_enter_valid_amount">"Please enter valid amount "</string>
+    <string name="didin_t_receive_otp">Didin\'t receive OTP?</string>
+    <string name="my_qr_code">My QR Code</string>
+    <string name="qr_code">QR Code</string>
+    <string name="about_library_description"><![CDATA[The National Forest Library and Information Centre (NFLIC) is the richest in document collection on forestry and allied sciences in South and Southeast Asia. The history of the library has been running parallel to the history of the Forest Research Institute (FRI) since 1906. The library started with a few hundred books and a few periodical titles in English and German languages accommodated in a small room. However, upon shifting of the FRI to its newly constructed magnificent building on Chakrata Road in 1929 the library was provided with a sufficient space in the front wing next to the convocation hall, having all facilities that were required at that time. Later a separate building for the library was constructed on Chaturvedi Road in the campus and the library was shifted there to accommodate 1.5 lakh books and display about 300 current journal titles. With the constitution of the Indian Council of Forestry Research and Education (ICFRE) as an autonomous body under the Ministry of Environment, Forest and Climate Change (MoEF&CC ), Govt. of India in the year 1986, the then Central Library of FRI was upgraded to National Forest Library and Information Centre (NFLIC), the acquisition of books and subscription to journals increased manifold. Besides, the NFLIC also started computerization of its operations. Several CD-ROM based bibliographical databases started being acquired. A new modern library building with all up-to-date facilities was constructed on the Pearson Road, and the NFLIC shifted therein in the year 2000.]]></string>
+    <string name="notification_error_ssl_cert_invalid">Notification error SSL cert invalid.</string>
+
+    <array name="library_list">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Publisher</item>
+        <item>Pub. Year</item>
+        <item>ISBN</item>
+    </array>
+
+    <array name="search_by">
+        <item>Title</item>
+        <item>Author</item>
+        <item>Publisher</item>
+        <item>Pub. Year</item>
+        <item>ISBN</item>
+    </array>
+
+    <array name="search_with">
+        <item>contains</item>
+        <item>not contains</item>
+        <item>equals</item>
+        <item>start with</item>
+        <item>end with</item>
+    </array>
+
+    <array name="choose_days">
+        <item>1 Days</item>
+        <item>2 Days</item>
+        <item>3 Days</item>
+        <item>4 Days</item>
+        <item>5 Days</item>
+        <item>6 Days</item>
+        <item>7 Days</item>
+    </array>
+
+    <string-array name="salutation">
+        <item>Mr</item>
+        <item>Mrs</item>
+    </string-array>
+
+</resources>
